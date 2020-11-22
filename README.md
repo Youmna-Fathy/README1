@@ -26,8 +26,8 @@ when **click** the name of the wanted section in the nav-bar it will scroll the 
 3. extract data-nav value from the section and store ot in a value called (paragraph) and set it to text content of each link
 4. use (appendChild) on Fragment inside the loop
 5. before ending the loop add eventListener (click) and use (scrollIntoView) to make the scroll smooth 
-6. After ending of the loop append the fragment to <ul>  (that stored in variable called myUL)
-7. make function called active_link that take the value for the active section 
+6. After ending of the loop append the fragment to ul (that stored in variable called myUL)
+7. make function called active_link that take the value for the active section. 
 8. Query all the links and store it in a variable called links and get the value by (getAttribute) for all the data-nav
 9. make a loop with forEach to loop through the links and by using if condition to know which link has the textContent equal to active section data-nav.
 10. Remove Active class from all links, give the active link class active.
